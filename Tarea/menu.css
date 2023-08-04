@@ -6,9 +6,40 @@
 .main{
     width: 100vw;
     height: 100vh;
-    background-image: url(/Tarea/imgg/fondito.svg);
+    background-image: url(/Tarea/imgg/looo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+nav{
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    padding-top:  30px; 
+    padding-left: 5%;
+    padding-right: 10%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.paa img{
+    width: 130px;
+    right: 130px;
+    border-radius: 100%;
+}
+{
+    color: white;
+    font-size: 75px;
+
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    color: aqua;
 }
