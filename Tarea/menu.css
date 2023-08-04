@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Edu+SA+Beginner&display=swap');
+/* font-family: 'Bree Serif', serif;
+font-family: 'Edu SA Beginner', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Edu+SA+Beginner&family=Tektur&display=swap');
+/*font-family: 'Bree Serif', serif;
+font-family: 'Edu SA Beginner', cursive;
+font-family: 'Tektur', cursive;
+*/
+
 *{
     padding: 0;
     margin:  0;
@@ -42,4 +51,33 @@ a{
 }
 a:hover{
     color: aqua;
+}
+.habla{
+    
+    flex-direction: column;
+    display: flex;
+    color: black;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 50px;
+
+    
+}
+.habla pre{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 25px;
+}
+.habla h1{
+    font-size: 80px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Tektur', cursive;
+}
+.habla h2{
+    font-size: 60px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Edu SA Beginner', cursive;
+    
 }
