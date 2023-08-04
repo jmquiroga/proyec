@@ -53,9 +53,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
-    background-color: rgb(39, 38, 38);
     text-align: center;
+    border-radius: 30px;
+    background-color: rgb(39, 38, 38); 
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: white;
@@ -67,9 +67,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 30px;
     background-color: rgb(39, 38, 38);
-    text-align: center;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: white;
@@ -78,7 +78,7 @@
 .nn button{
     width: 220px;
     height: 50px;
-    background-color: rgb(187, 50, 50);
+    background-color: rgb(226, 95, 19);
     color: white;
     border: rgb(82, 31, 31);
     border-radius:30px ;
@@ -86,8 +86,18 @@
     font-family: 'Bree Serif', serif;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
+    font-size: 17px;
 }
 ::placeholder{
     color: white;
     font-size: 20px;
+}
+.main2 p{
+    margin-top: 35px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+}.main2 a{
+    color: rgb(206, 37, 37);
+    margin-left: 15px;
 }
