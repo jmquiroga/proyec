@@ -35,11 +35,9 @@ nav{
     right: 130px;
     border-radius: 100%;
 }
-{
-    color: white;
-    font-size: 75px;
 
-}
+
+
 ul li{
     display: inline-block;
     padding: 0px 20px;
