@@ -73,6 +73,7 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: white;
+    
 }
 
 .nn button{
@@ -87,6 +88,8 @@
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     font-size: 17px;
+    
+    
 }
 ::placeholder{
     color: white;
@@ -100,4 +103,8 @@
 }.main2 a{
     color: rgb(206, 37, 37);
     margin-left: 15px;
+    
+}
+.nn button:hover{
+    background-color: blue;
 }
