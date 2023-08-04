@@ -12,9 +12,9 @@ font-family: 'Tektur', cursive;
     margin:  0;
     box-sizing: border-box;
 }
-.main{
+.paa{
     width: 100vw;
-    height: 100vh;
+    height: 20vh;
     background-image: url(/Tarea/imgg/looo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,9 +57,10 @@ a:hover{
     color: black;
     font-weight: bold;
     justify-content: space-between;
-    margin-top: 200px;
-    margin-left: 50px;
-
+    margin-top: -460px;
+    margin-left: 100px;
+    
+    
     
 }
 .habla pre{
@@ -77,5 +78,44 @@ a:hover{
     font-size: 60px;
     font-family: 'Bree Serif', serif;
     font-family: 'Edu SA Beginner', cursive;
+    
+}
+.ima{
+    margin-left: 950px;
+    margin-top: 100px;
+}
+.ima img{
+    width: 700px;
+    height: 500px;
+    border-radius: 40px;
+}
+input{
+    width: 500px;
+    height: 35px;
+    border-radius: 40px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+button{
+    width: 200px;
+    height: 35px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-align: left;
+}
+.sd{
+    display: flex;
+    margin-left: 140px;
+    
+}
+button:hover{
+    background-color: yellow;
+    color: black;
     
 }
